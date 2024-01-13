@@ -116,8 +116,13 @@ img {
   align-items: center;
 }
 
-.site-logo {
+.header-navigation .site-logo {
   margin-right: 76px;
+}
+
+.footer .site-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .main-menu,
@@ -236,7 +241,7 @@ img {
 
 .footer-paragraph {
   color: #f4f4fd;
-  margin: 17.5px 0 0;
+  margin: 0;
   color: #F4F4FD;
   font-size: 16px;
   font-weight: 400;
