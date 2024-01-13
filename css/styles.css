@@ -223,6 +223,11 @@ img {
   padding: 32px 0;
 }
 
+.team-item-content .article-title,
+.team-item-content .section-paragraph {
+  text-align: center;
+}
+
 .footer {
   background-color: #2E2F42;
   padding-top: 100px;
