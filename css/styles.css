@@ -99,7 +99,6 @@ img {
 }
 
 .header {
-  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
   background: #FFF;
 }
@@ -130,6 +129,12 @@ img {
   gap: 40px;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.main-menu a,
+.address-list a {
+  display: block;
+  padding: 24px 0;
 }
 
 .site-logo {
@@ -234,21 +239,13 @@ img {
   letter-spacing: 0.32px;
 }
 
-.feature-list {
+.feature-list,
+.team-list,
+.portfolio-list {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 24px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.team-list {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 48px 24px;
   list-style: none;
   margin: 0;
   padding: 0;
