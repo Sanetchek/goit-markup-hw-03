@@ -250,12 +250,22 @@ img {
 }
 
 .feature-list,
-.team-list,
-.portfolio-list {
+.team-list {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  row-gap: 48px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -281,6 +291,7 @@ img {
 .portfolio-item-content {
   padding: 32px 16px;
   border: 1px solid #E7E9FC;
+  border-top: none;
 }
 
 .article-title {
